@@ -3,7 +3,7 @@ from pathlib import Path
 from PyInstaller.utils.hooks import collect_all
 
 
-ROOT_DIR = Path(SPECPATH).resolve().parent.parent
+ROOT_DIR = Path(SPECPATH).resolve().parent
 
 
 def collect_tree(source: Path, destination: str) -> list[tuple[str, str]]:
